@@ -39,6 +39,10 @@ local y visitante.
 
 ### Implementaciones incrementales
 
+1. Constructor de la clase `Metegol` y primeros atributos identificados:
+    * declaración: [`Metegol.h`](../punto-01/src/Metegol.h)
+    * implementación: [`Metegol.cpp`](../punto-01/src/Metegol.cpp)
+    * uso: [`main.cpp`](../punto-01/src/main.cpp)
 
 
 
