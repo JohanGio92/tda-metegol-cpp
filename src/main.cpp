@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Metegol.h"
 using namespace std;
 
 int main() {

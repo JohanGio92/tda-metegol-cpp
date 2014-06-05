@@ -14,26 +14,26 @@ El `Metegol` debe proveer operaciones para:
 1. Crearlo a partir de la cantidad de pelotas a jugar y los nombres del equipo 
 local y visitante.
 
-2. Anotar un gol para el local o el visitante, indicando el tipo de gol:
+2. Devolver la cantidad de pelotas que restan jugar.
 
-        * REGULAR (vale 1 punto)
+3. Anotar un gol para el local o el visitante, indicando el tipo de gol:
+
+  * REGULAR (vale 1 punto)
         
-        * EN_CONTRA (vale 2 puntos)
+  * EN_CONTRA (vale 2 puntos)
         
-        * DE_ARQUERO (vale 3 puntos)
+  * DE_ARQUERO (vale 3 puntos)
        
-   Al hacer un gol se consume una pelota.
+  Al hacer un gol se consume una pelota.
     
-3. Devolver la cantidad de puntos del local.
+4. Devolver la cantidad de puntos del local.
 
-4. Devolver la cantidad de puntos del visitante.
+5. Devolver la cantidad de puntos del visitante.
 
-5. Devolver el nombre del ganador.
+6. Devolver el nombre del ganador.
 
-6. Devolver la distancia máxima de puntos entre el local y el visitante 
+7. Devolver la distancia máxima de puntos entre el local y el visitante 
    durante todo el partido
-
-7. Devolver la cantidad de pelotas que restan jugar.
 
 ## Solución
 
