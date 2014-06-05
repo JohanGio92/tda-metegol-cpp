@@ -8,5 +8,5 @@ int main() {
 
     Metegol partido(6, "Deportivo Bucle", "Atletico Condicional");
 
-	return 0;
+    return 0;
 }
