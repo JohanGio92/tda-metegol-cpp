@@ -44,6 +44,10 @@ local y visitante.
     * implementación: [`Metegol.cpp`](../punto-01/src/Metegol.cpp)
     * uso: [`main.cpp`](../punto-01/src/main.cpp)
 
+2. Método `unsigned int obtenerPelotasPorJugar();`
+    * declaración: [`Metegol.h`](../punto-02/src/Metegol.h)
+    * implementación: [`Metegol.cpp`](../punto-02/src/Metegol.cpp)
+    * uso: [`main.cpp`](../punto-02/src/main.cpp)
 
 
 [metegol]: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Baby_foot_artlibre_jnl.jpg/180px-Baby_foot_artlibre_jnl.jpg "Metegol"    

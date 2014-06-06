@@ -17,3 +17,7 @@ Metegol::Metegol(unsigned int pelotas, string local, string visitante) {
 Metegol::~Metegol() {
 }
 
+unsigned int Metegol::obtenerPelotasPorJugar() {
+
+    return this->pelotasPorJugar;
+}

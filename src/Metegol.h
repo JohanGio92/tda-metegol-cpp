@@ -26,6 +26,12 @@ class Metegol {
         Metegol(unsigned int pelotas, std::string local, std::string visitante);
 
         ~Metegol();
+
+        /*
+         * post: devuelve la cantidad de goles que restan por anotar hasta
+         *       que se termine el partido.
+         */
+        unsigned int obtenerPelotasPorJugar();
 };
 
 #endif /* METEGOL_H_ */
