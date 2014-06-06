@@ -8,16 +8,20 @@ class Metegol {
     private:
 
         unsigned int pelotasPorJugar;
-        std::string nombreLocal;
-        std::string nombreVisitante;
+
+        std::string  nombreLocal;
+        unsigned int puntosLocal;
+
+        std::string  nombreVisitante;
+        unsigned int puntosVisitante;
 
     public:
 
         /*
-         * pre : pelotas es mayor a 0.
+         * pre : 'pelotas' es mayor a 0.
          * post: inicia el partido de Metegol entre los equipos 'local' y
-         *       'visitante', que finalizará al anotar tantos goles como
-         *       'pelotas'.
+         *       'visitante', ambos sin puntos.
+         *       El partido finalizará al anotar tantos goles como 'pelotas'.
          */
         Metegol(unsigned int pelotas, std::string local, std::string visitante);
 

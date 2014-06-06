@@ -9,6 +9,9 @@ Metegol::Metegol(unsigned int pelotas, string local, string visitante) {
 
     this->nombreLocal = local;
     this->nombreVisitante = visitante;
+
+    this->puntosLocal = 0;
+    this->puntosVisitante = 0;
 }
 
 Metegol::~Metegol() {
